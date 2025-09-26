@@ -3,6 +3,7 @@ A learning repository on controlling robotic arms with ROS2 and MoveIt, includin
 
 ## 🚀 Usage
 1. **Display URDF in RViz**
+```bash
 ros2 launch urdf_tutorial display.launch.py model:=/home/duynhat/arm_ws/src/robot_arm_description/urdf/arm.urdf
 2. **Run MoveIt Demo**
 ros2 launch robot_arm_moveit_config demo.launch.py 
